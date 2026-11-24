@@ -5,8 +5,10 @@ import About from '../components/About.astro';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+
+const pageTitle = "About Me"
 ---
 
-<Layout>
+<Layout title={pageTitle}>
     <About />
 </Layout>
